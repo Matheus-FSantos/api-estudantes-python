@@ -53,10 +53,4 @@ public class Estudante implements Serializable {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-        public Boolean testEmail(String email){
-                if(email.contains("@"))
-                         return true;
-                return false;
-        }
 }
